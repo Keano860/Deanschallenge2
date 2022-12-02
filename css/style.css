@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(44, 42, 48);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+div{
+  background-color: transparent;
+}
+
+h1 {
+  background-color:rgb(44, 42, 48);
+  margin:0;
+  font-size: 30px;
+  color:white;
+
+}
+
+h2 {
+  margin:0;
+  background-color: transparent;
+  font-size: 50px;
+ }
+
+h3 {
+  margin:0;
+  background-color: transparent;
+  font-size: 15px; 
+}
+h4 {
+  color:white;
+  margin:0;
+  background-color: transparent;
+  font-size: 50px;   
+}
+
+
+h5 {
+  color:white;
+  margin:0;
+  font-size: 15px; 
+}
+
+
+.hero {
+height:250px;
+background-image:url(../images/02-hero-bg.jpg);
+font-size: 50px;
+font-family:Arial, Helvetica, sans-serif;
+color:aliceblue;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:space-evenly;
+}
+
+.myphoto{
+display:flex;
+border-color: black;
+align-items: flex-end;
+}
+
+.round{
+  border:solid;
+  border-radius:50%;
+  border-width:10px;
+  border-color: rgb(104, 42, 233);
+}
+
+
+.page-section {
+  border-bottom-color:black;
+  border-bottom-width: 3px;
+}
+
